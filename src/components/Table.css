@@ -1,0 +1,78 @@
+.table-wrapper {
+    width: 100%;
+  }
+  
+  .table {
+    display: block;
+    overflow: hidden;
+    table-layout: fixed;
+    border-collapse: collapse;
+    box-shadow: 0px 10px 10px #ccc;
+    border-radius: 10px;
+    white-space: nowrap;
+    width: 100em;
+    max-width: 80%;
+    margin: auto;
+    table-layout: auto;
+    overflow-x: auto;
+  }
+  
+  .table thead {
+    background-color: #ccc;
+    color: #222;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.8rem;
+    text-align: center; /* Center the content in table cells */
+  }
+  
+  .table td {
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #eee;
+  }
+  
+  .expand {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .label {
+    border-radius: 5px;
+    padding: 0.3rem;
+    color: white;
+  }
+  
+  .label-Delivered {
+    background-color: rgb(80, 219, 254);
+  }
+  
+  .label-Approved {
+    background-color: #a8f9a8;
+    color:#114f11;
+  }
+  
+  .label-Pending {
+    background-color: #fe9c99;
+    color:#e10d05;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .actions svg {
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    color: #e10d05;
+  }
+  
